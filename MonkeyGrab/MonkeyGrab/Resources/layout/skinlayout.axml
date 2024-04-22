@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background ="@drawable/backgroundtest">
+	
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >	
+<ImageButton
+        android:id="@+id/blueChar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/bluback"
+        
+/>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+<Button
+     android:id="@+id/defChar"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:textAllCaps="false"
+     android:text="Default character" 
+/>
+<Button
+     android:id="@+id/Mainreturn"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:textAllCaps="false"
+     android:text="Main screen" 
+/>
+            </LinearLayout>
+        </LinearLayout>
+<ImageButton
+        android:id="@+id/greenChar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/smallgreenbackground"
+ 
+        
+      
+/>
+</LinearLayout>

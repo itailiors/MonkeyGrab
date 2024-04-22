@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center"
+    android:orientation="vertical"
+	android:background = "@drawable/wallpapertest">
+	
+	
+    <ImageButton
+        android:id="@+id/ibtPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/playgod"
+        android:scaleY="0.5"
+        android:scaleX="0.5"
+        android:layout_marginBottom="-20dp"
+        android:background="@null"
+/>
+    <ImageButton
+        android:id="@+id/ibtSkin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/buttonskins"
+        android:layout_marginBottom="10dp"
+        
+        android:background="@null"
+        
+/>
+    <ImageButton
+        android:id="@+id/ibtHS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/buttonhs"
+        android:background="@null"
+        
+       
+        
+/>
+  <ImageButton
+        android:id="@+id/ibtAb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/button_about"
+        android:background="@null"
+        android:layout_marginBottom="20dp"
+        
+       
+        
+/>
+
+	
+	/>
+	
+</LinearLayout>

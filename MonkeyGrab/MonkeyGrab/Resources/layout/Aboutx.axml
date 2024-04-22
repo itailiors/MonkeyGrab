@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              	android:background = "@drawable/uigood">
+  <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tva"
+        android:text="Welcome to mokney grab \n This is an arcade game based of wall climbing,\n your job is to climb as long as possible while \n the wall keeps going down faster and faster \n  If you find any mistakes or you have an idea\n of making the game better with a certain feature\n feel free to let me know at : \n    Itailior171@gmail.com \n Thank you for playing monkey grab :)"
+        android:maxLines="9"
+        
+        />
+  <ImageButton
+        android:id="@+id/ibtMs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:src="@drawable/mainbut"
+        android:background="@null"
+        
+       
+        
+/>
+</LinearLayout>
