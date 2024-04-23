@@ -1,4 +1,4 @@
-# Monkey Climber 🐒
+# Monkey Grab 🐒
 
 ## Table of Contents
 - [Introduction](#introduction)
